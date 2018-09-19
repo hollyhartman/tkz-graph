@@ -1,6 +1,6 @@
 % encodage utf8    
 --------------------  english readme ----------------------------------------
-readme-tkz-graph.txt V 1.00 c 02/06/2011 
+readme-tkz-graph.txt V 1.00 d 19/09/2018
 
 The package tkz-graph.sty is a collection of some useful macros if you want to
  draw manually a graph of the graph theory. The kind of graphs that I will

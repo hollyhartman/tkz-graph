@@ -12,9 +12,11 @@
 % Objet :  Création de graphes
 %<--------------------------------------------------------------------------->
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{tkz-graph}[2011/06/01 ctan v  1.00 base for graphs]
+\ProvidesPackage{tkz-graph}[2018/09/19 ctan v  1.00 d base for graphs]
 %<--------------------------------------------------------------------------->
-\RequirePackage{etex}
+\ifx\e@alloc\@undefined
+  \RequirePackage{etex}
+\fi
 \RequirePackage{ifthen}
 \RequirePackage{xkeyval}[2005/11/25]
 \RequirePackage{tikz}
